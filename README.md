@@ -18,4 +18,4 @@ Browser with JavaScript enabled.
 Using mouse only.
 
 ## Screenshot
-![XO](https://imgur.com/a/mwDPwCb)
+![XO](https://i.imgur.com/A6hmerA.jpg)
