@@ -10,22 +10,111 @@ body {
 }
 
 .main {
-    height: 500px;
+    height: 300px;
     width: 100%;
-    padding: 50px 0 50px 0;
+    padding: 35px 0 50px 0;
     text-align: center;
 }
 
 .game {
-    height: 65%;
+    height: 100%;
     width: 25%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
-    padding: 10px;
     text-align: center;
+}
+
+.message {
+    display: inline-block;
+    height: 25px;
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px 5px 7.5px 5px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.row {
+    height: 33.3333%;
+    width: 100%;
+}
+
+.col {
+    height: 100%;
+    width: 30.3333%;
+    float: left;
+    cursor: pointer;
+}
+.col-text {
+    font-size: 5.5em;
+    font-weight: bold;
+}
+
+.col-select {
+    background-color: #312ed8;
+    color: #ffffff;
+}
+
+.win {
+    background-color: #12b90c;
+    color: #ffffff;
+}
+.lose {
+    background-color: #b91111;
+    color: #ffffff;
+}
+
+.border-all {
     border: 5px solid #000000;
-    border-radius: 15px;
+}
+.border-none {
+    border: 0;
+}
+.border-top-bottom  {
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+.border-right-left  {
+    border-right: 5px solid #000000;
+    border-left: 5px solid #000000;
+}
+.corner1 {
+    border-top-left-radius: 10px;
+}
+.corner2 {
+    border-top-right-radius: 10px;
+}
+.corner3 {
+    border-bottom-left-radius: 10px;
+}
+.corner4 {
+    border-bottom-right-radius: 10px;
+}
+
+.button-group {
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+.button {
+    height: 25px;
+    width: 40%;
+    margin: 5px 10px 5px 10px;
+    padding: 15px 5px 5px 5px;
+    background-color: #666565;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+}
+.button:hover {
+    background-color: #333333;
 }
 
 .copyrights {
