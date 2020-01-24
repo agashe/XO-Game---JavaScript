@@ -1,4 +1,4 @@
-# XO-Game---JavaScript
+# XO-Game JavaScript
 
 XO Game made with pure HTML , CSS and JavaScript NO! external libraries.
 
